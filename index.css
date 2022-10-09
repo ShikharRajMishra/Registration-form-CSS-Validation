@@ -1,0 +1,96 @@
+*
+{
+margin:0;
+padding:0;
+text-decoration: none;
+}
+.container
+{padding:10px;
+    background-image:url(images/g.jfif);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    height:100vh;
+    place-items:center;
+    display:flex;
+    justify-content: center;
+}
+.form
+{display:flex;
+   margin:0;
+   padding:20px;
+    place-items:center;
+    width:1000px;
+    justify-content: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color:lightgrey;
+    color:white;
+}
+.form .right
+{ 
+    width:40%;
+    background-color:black;
+    border:10px solid black;  
+    border-radius: 10px;
+    font-size:35px;
+    text-transform:uppercase;
+    text-align: center;
+    font-family:'Arial Narrow Bold', sans-serif
+}
+.form .left
+{   
+    float:left;
+    padding:20px;
+    width:60%;
+    border:1px solid grey;
+    border-radius: 10px;
+    background-color:black;
+}
+h1{
+    padding-bottom:20px;
+    text-align: center;
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    word-spacing: 5px;
+}
+#name,#number,#email,#address,#email
+{
+    width:90%;
+    background-color:white;
+    font-weight: 700;
+    padding:5px;
+    border-radius:5px;
+}
+label
+{
+    padding :15px ,0px,15px,0px;
+    text-transform:capitalize;
+    font-style:bold;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.click
+{   display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding-left:10px,0px,0px , 20px;
+    justify-content:space-evenly;
+    display:inline-block;
+    width:40%;
+    color:coral;
+    background-color:purple;
+    font-weight: 700;
+    margin-top:10px;
+    padding:5px;
+    border-radius: 5px;
+}
+fieldset{
+    width:90%;
+    padding:5px;
+    border-radius: 5px;
+}
+.footerimage{
+    padding:10px;
+}
